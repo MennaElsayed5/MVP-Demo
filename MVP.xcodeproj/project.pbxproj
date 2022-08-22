@@ -66,8 +66,9 @@
 		3EBB1E202819F5C100158AEB /* MVP */ = {
 			isa = PBXGroup;
 			children = (
+				3EBBE5F5281A933B00FA30E6 /* NetworkServices */,
 				3EBB1E3E281A11BB00158AEB /* presenters */,
-				3EBB1E3D281A11B400158AEB /* models */,
+				3EBB1E3D281A11B400158AEB /* model */,
 				3EBB1E3C281A11AE00158AEB /* views */,
 				3EBB1E3A281A118D00158AEB /* constants */,
 				3EBB1E212819F5C100158AEB /* AppDelegate.swift */,
@@ -97,13 +98,12 @@
 			path = views;
 			sourceTree = "<group>";
 		};
-		3EBB1E3D281A11B400158AEB /* models */ = {
+		3EBB1E3D281A11B400158AEB /* model */ = {
 			isa = PBXGroup;
 			children = (
-				3EBBE5F5281A933B00FA30E6 /* services */,
 				3EBB1E46281A128B00158AEB /* Employee.swift */,
 			);
-			path = models;
+			path = model;
 			sourceTree = "<group>";
 		};
 		3EBB1E3E281A11BB00158AEB /* presenters */ = {
@@ -114,12 +114,12 @@
 			path = presenters;
 			sourceTree = "<group>";
 		};
-		3EBBE5F5281A933B00FA30E6 /* services */ = {
+		3EBBE5F5281A933B00FA30E6 /* NetworkServices */ = {
 			isa = PBXGroup;
 			children = (
 				3EBB1E42281A120000158AEB /* NetworkApi.swift */,
 			);
-			path = services;
+			path = NetworkServices;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
